@@ -17,7 +17,7 @@ public class GridLayoutTest1 extends JFrame {
 		Container container = getContentPane();
 		container.setLayout(new GridLayout(3, 4, 5, 5));
 		
-		//버튼 10개 생성
+		//버튼 12개 생성
 		for(int i=0;i<12;i++) {
 			JButton btn = new JButton(i+"");
 			add(btn);
